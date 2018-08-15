@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'teams/show'
+
   resources :teams
 
   get 'home/index'

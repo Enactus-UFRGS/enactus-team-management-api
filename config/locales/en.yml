@@ -21,7 +21,15 @@
 
 en:
   activerecord:
-      attributes:
+    errors:
+      models:
         team:
-          name: "Team name"
-          enactus_id: "Enactus ID"
+          attributes:
+            enactus_id:
+              blank: "You must provide the Enactus ID to register your team"
+            name:
+              blank: "You must provide the team name to register your team"
+    attributes:
+      team:
+        name: "Team name"
+        enactus_id: "Enactus ID"

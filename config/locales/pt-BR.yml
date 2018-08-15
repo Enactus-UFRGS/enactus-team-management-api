@@ -1,6 +1,14 @@
 pt-BR:
   activerecord:
-      attributes:
+    errors:
+      models:
+        team:
+          attributes:
+            enactus_id:
+              blank: "Você deve fornecer o ID Enactus para criá-lo"
+            name:
+              blank: "Você deve fornecer o nome do seu time para criá-lo"
+    attributes:
         team:
           name: "Nome do time"
           enactus_id: "ID Enactus"

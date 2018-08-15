@@ -1,4 +1,11 @@
 <h1>Cadastre seu time Enactus</h1>
+<% if @team.errors.any? %>
+    <ul>
+      <% @team.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+<% end %>
 
 <%= form_for @team do |f| %>
   <%= f.label :name%>
