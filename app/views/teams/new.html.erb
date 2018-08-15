@@ -1,0 +1,9 @@
+<h1>Cadastre seu time Enactus</h1>
+
+<%= form_for @team do |f| %>
+  <%= f.label :name%>
+  <%= f.text_field :name %>
+  <%= f.label :enactus_id%>
+  <%= f.text_field :enactus_id %>
+  <%= f.submit %>
+<% end %>

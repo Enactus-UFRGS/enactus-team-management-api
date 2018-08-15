@@ -1,0 +1,6 @@
+pt-BR:
+  activerecord:
+      attributes:
+        team:
+          name: "Nome do time"
+          enactus_id: "ID Enactus"
