@@ -26,9 +26,9 @@ en:
         team:
           attributes:
             enactus_id:
-              blank: "You must provide the Enactus ID to register your team"
+              blank: "can't be blank"
             name:
-              blank: "You must provide the team name to register your team"
+              blank: "can't be blank"
     attributes:
       team:
         name: "Team name"

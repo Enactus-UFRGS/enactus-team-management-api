@@ -1,6 +1,14 @@
-<h1>
-  <%= t "activerecord.attributes.team.name" %>: <%= @team.name %>
-</h1>
-<h2>
-  <%= t "activerecord.attributes.team.enactus_id" %>: <%= @team.enactus_id %>
-</h2>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Enactus:</strong>
+  <%= @team.enactus_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @team.name %>
+</p>
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>

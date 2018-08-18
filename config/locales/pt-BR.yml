@@ -5,9 +5,9 @@ pt-BR:
         team:
           attributes:
             enactus_id:
-              blank: "Você deve fornecer o ID Enactus para criá-lo"
+              blank: "não pode estar vazio"
             name:
-              blank: "Você deve fornecer o nome do seu time para criá-lo"
+              blank: "não pode estar vazio"
     attributes:
         team:
           name: "Nome do time"
