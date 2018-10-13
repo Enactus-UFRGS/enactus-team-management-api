@@ -20,4 +20,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        team:
+          attributes:
+            enactus_id:
+              blank: "can't be blank"
+            name:
+              blank: "can't be blank"
+    attributes:
+      team:
+        name: "Team name"
+        enactus_id: "Enactus ID"

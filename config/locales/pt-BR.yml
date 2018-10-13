@@ -1,0 +1,14 @@
+pt-BR:
+  activerecord:
+    errors:
+      models:
+        team:
+          attributes:
+            enactus_id:
+              blank: "não pode estar vazio"
+            name:
+              blank: "não pode estar vazio"
+    attributes:
+        team:
+          name: "Nome do time"
+          enactus_id: "ID Enactus"
