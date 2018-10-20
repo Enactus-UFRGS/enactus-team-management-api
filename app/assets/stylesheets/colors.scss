@@ -1,0 +1,38 @@
+$secondary: #0696D7;
+$en-danger: #C41230;
+$en-normal: #515356;
+$en-success: #49A942;
+
+$custom-yellow: (
+        '50': #FFD200,
+        '100': #FFD200,
+        '200': #FFD200,
+        '300': #FFD200,
+        '400': #FFD200,
+        '500': #FFD200,
+        '600': #FFD200,
+        '700': #FFD200,
+        '800': #FFD200,
+        '900': #FFD200,
+        'A100': #FFD200,
+        'A200': #FFD200,
+        'A400': #FFD200,
+        'A700': #FFD200,
+        'contrastDefaultColor': #000000,
+        'contrastDarkColors': ('50', '100', '200', '300', 'A100'),
+        'contrastStrongLightColors': ('400', '500', '600', '700', 'A200', 'A400', 'A700')
+);
+
+$primary: $custom-yellow;
+
+.c-secondary {
+  color: $secondary !important;
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+button.bg-secondary, a.bg-secondary {
+  color: white !important;
+}

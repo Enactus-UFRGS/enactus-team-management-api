@@ -1,4 +1,6 @@
 pt-BR:
+  signup: "Cadastre-se"
+  signin: "Entrar"
   activerecord:
     errors:
       models:

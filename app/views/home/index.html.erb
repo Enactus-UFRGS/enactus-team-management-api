@@ -1,3 +1,50 @@
-<%= link_to('Logout', destroy_user_session_path, method: :delete) %>
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="HomePage layout layout-column">
+  <div class="HomePage__Section">
+    <h3>
+      Seja bem-vindo(a) ao
+    </h3>
+    <h1 class="SoftwareName">
+      Enactus Team Management System
+    </h1>
+    <div class="HomePage__AuthenticationButtons">
+      <%= button_to t("signup"), new_user_registration_path, method: :get, class: "btn" %>
+      <%= button_to t("signin"), new_user_registration_path, method: :get, class: "btn" %>
+    </div>
+
+    <!--<div>-->
+    <!--<h2>Para times Enactus</h2>-->
+    <!--<p>-->
+    <!--Este software é uma parceria entre os times brasileiros Enactus UFRGS e Enactus UERN.-->
+    <!--Nosso objetivo com é que ele auxilie todo e qualquer time Enactus ao redor do mundo a se organizar,-->
+    <!--ter maior controle sobre seus membros, seus projetos, e possibilitar que eles possam analisar seus dados-->
+    <!--para tirar bons insights.-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--Nós ainda estamos começando e toda a ajuda é sempre bem vinda! Se você tem alguma sugestão,-->
+    <!--ou quer relatar algum probema, <a>clique aqui e preencha nosso formulário de feedback.</a>-->
+    <!--</p>-->
+    <!--</div>-->
+
+    <!--<div>-->
+    <!--<h2>Para desenvolvedores</h2>-->
+    <!--<p>-->
+    <!--Caso você seja um desenvolvedor, saiba que nossa plataforma é completamente Open Source e você-->
+    <!--pode ajudar no seu desenvolvimento através destes repositórios-->
+    <!--<ul>-->
+    <!--<li>-->
+    <!--<a target="_blank" href="https://github.com/Enactus-UFRGS/enactus-team-management-api">ETMS Backend</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<a target="_blank" href="https://github.com/Enactus-UFRGS/enactus-team-management-frontend">ETMS Frotend</a>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <!--Sinta-se livre para abrir issues e pull-requests. Quanto mais pessoas ajudarem, melhor o sistema se tornará.-->
+    <!--</p>-->
+    <!--</div>-->
+  </div>
+
+
+  <div class="EnactusUfrgsLogo hide-xs">
+    <%= image_tag "logoEnactusUfrgs.png" %>
+  </div>
+</div>
