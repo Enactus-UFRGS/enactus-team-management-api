@@ -1,3 +1,55 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import './colors';
+
+.HomePage {
+  &__Section {
+    box-sizing: border-box;
+    padding: 30px;
+    padding-left: 68vh;
+    min-height: 100vh;
+    background: image-url("enactusLogoHuge.png");
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: -32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media(max-width: 599px) {
+      background-size: 100vw;
+      background-position-x: center;
+      background-position-y: -60vw;
+      padding-left: 0;
+      padding-top: 40vw;
+    }
+  }
+
+  &__AuthenticationButtons {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.SoftwareName {
+  @extend .c-secondary;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.EnactusUfrgsLogo {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+
+  & img {
+    max-height: 150px;
+    max-width: 150px;
+  }
+}

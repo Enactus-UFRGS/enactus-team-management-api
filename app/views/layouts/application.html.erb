@@ -16,6 +16,7 @@
 
   <header>
     <h1>Enactus Team Management Software</h1>
+    <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
   </header>
     <%= yield %>
   </body>
