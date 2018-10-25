@@ -16,6 +16,7 @@
   transition: all 0.3s;
   background: #fcad26;
   color: #fff;
+  border-radius: 2px;
 
   &:after {
     content: '';
@@ -44,9 +45,16 @@
     font-size: 140%;
     width: 60px;
   }
-}
 
-.btn
+  &--small {
+    padding: 12px 40px;
+  }
+
+  &--blue {
+    background-color: #0696D7;
+    color: white;
+  }
+}
 
 /* Button 3a */
 .btn-3a {

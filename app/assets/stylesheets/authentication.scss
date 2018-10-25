@@ -1,0 +1,26 @@
+.AuthenticationPage {
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-linear-gradient(300deg,#ffd200 0,#ffd200 55%,#fff 55.1%,#fff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__FormCard {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 200px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+
+    input {
+      width: 100%;
+      &[type="submit"] {
+        margin: 0;
+      }
+    }
+  }
+}
